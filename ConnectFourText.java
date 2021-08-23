@@ -10,7 +10,7 @@ import java.util.*;
  * It will then either indicate a winner in the game or say that a tie was achieved 
  */
 
-public class ConnectFourBoard
+public class ConnectFourText
 {
   /** A two-dimensional character array used to represent the game board */
   private char[][] board;
@@ -26,7 +26,7 @@ public class ConnectFourBoard
     * @param rows The number of rows in our game board
     * @param columns The number of columns in our game board
     * */
-  public ConnectFourBoard( int rows, int columns )
+  public ConnectFourText( int rows, int columns )
   {
     // Here we set the number of columns and rows of our game board
     this.numColumns = columns;
@@ -48,7 +48,7 @@ public class ConnectFourBoard
   }
   
   /** A constructor that creates a game board of six rows and seven columns */
-  public ConnectFourBoard()
+  public ConnectFourText()
   {
     /* Here we call the constructor we previously wrote above and set the number of rows to equal 6 and the number of
      * columns to equal 7 */
@@ -455,7 +455,7 @@ public class ConnectFourBoard
 
   public static void main(String[] args)
   {
-    ConnectFourBoard c = new ConnectFourBoard();
+    ConnectFourText c = new ConnectFourText();
     c.hostGame();
   }
 }
