@@ -16,7 +16,7 @@ After cloning or forking the repository, you can run any of the Java programs th
 
 ## Output
 ### Connect Four
-![Connect Four](images/random_program_1.gif)
+![Output of Connect Four program](images/random_program_1.gif)
 
 ### Word Cloud
-![Word Cloud](images/random_program_2.png)
+![Output of Word Cloud program](images/random_program_2.png)
