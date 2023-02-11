@@ -13,3 +13,10 @@ After cloning or forking the repository, you can run any of the Java programs th
    - An example of this would be `javac ConnectFourBoard.java`
 3. Run the *class* file created
    - An example of this would be `java ConnectFourBoard`
+
+## Output
+### Connect Four
+![Connect Four](images/random_program_1.gif)
+
+### Word Cloud
+![Word Cloud](images/random_program_2.png)
